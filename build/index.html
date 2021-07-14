@@ -1,13 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Стартовый шаблон</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <h1>Добро пожаловать в Лигу А.</h1>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Стартовый шаблон</title>
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__logo">
+          <a>
+            <img src="img/logo.svg" width="67" height="21" alt="Логотип">
+          </a>
+        </div>
+        <nav class="header__nav">
+          <button class="visually-hidden" type="button"></button>
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#">О нас</a>
+            </li>
+            <li class="header__item">
+              <a href="#">Виды велосипедов</a>
+            </li>
+            <li class="header__item">
+              <a href="#">Видео про велосипеды</a>
+            </li>
+            <li class="header__item">
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <h1 class="visually-hidden">Интернет сайт &laquo;Велосипеды&raquo;</h1>
+      <section class="intro">
+        <h2 class="visually-hidden">Вступительный блок</h2>
+        <div class="intro__bg">
+          <img src="img/intro-bg.jpg" width="1440" height="825" alt="">
+        </div>
+        <div class="container">
+          <section class="about">
+            <h3 class="visually-hidden">О нас</h3>
+            <div class="about__logo">
+              <img src="img/logo.svg" width="67" height="21" alt="Логотип">
+            </div>
+            <p class="about__title reset-text">Мы продаем велосипеды</p>
+            <p class="about__description reset-text">Наш магазин отбирает только самые лучшие велосипеды для продажи</p>
+          </section>
+          <section class="callback">
+            <h3 class="visually-hidden">Форма обратной связи</h3>
+            <p class="callback__title reset-text">Заполните поля ниже и мы подберем велосипед Вашей мечты</p>
+            <form action="">
+              <input type="name" name="name" placeholder="Введите Ваше Имя">
+              <input type="tel" name="tel" placeholder="Введите Ваш номер телефона">
+              <button type="submit">Подобрать велосипед мечты</button>
+            </form>
+          </section>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>

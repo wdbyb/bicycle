@@ -1,3 +1,9 @@
-h1 {
-  color: red;
-}
+@import "origin/normalize.scss";
+@import "origin/fonts.scss";
+@import "origin/global.scss";
+
+@import "blocks/container.scss";
+@import "blocks/header.scss";
+@import "blocks/intro.scss";
+@import "blocks/about.scss";
+@import "blocks/callback.scss";

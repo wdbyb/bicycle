@@ -1,0 +1,36 @@
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 2rem 0;
+
+    &__logo {
+        display: none;
+    }
+    
+    &__list {
+        display: flex;
+        padding: 0 2rem;
+        padding-bottom: .9rem;
+        margin: 0;
+        border-bottom: .1rem solid rgba(255, 255, 255, 0.2);
+        flex-wrap: wrap;
+        font-size: 1.6rem;
+        line-height: 3.2rem;
+        font-weight: 300;
+        color: rgba(255,255,255,0.7);
+        list-style: none;
+    }
+
+    &__item {
+        margin-right: 13.5rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:hover {
+            color:rgba(255, 255, 255, 1);
+        }
+    }
+}
