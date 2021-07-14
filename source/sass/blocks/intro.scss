@@ -22,3 +22,24 @@
         justify-content: space-between;
     }
 }
+
+@media (min-width: 320px) and (max-width: 1023px) {
+    .intro {
+        &__bg {
+            height: 39rem;
+        }
+
+        .container {
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .intro {
+        &__bg {
+            height: 34rem;
+        }
+    }
+}
