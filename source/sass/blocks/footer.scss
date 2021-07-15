@@ -1,0 +1,140 @@
+.footer {
+    padding: 10rem 0;
+    
+    &__title {
+        margin-bottom: 3rem;
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    &__address {
+        width: 55.5rem;
+        margin-bottom: 4.2rem;
+        font-size: 1.7rem;
+        line-height: 3.1rem;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    &__map {
+        width: 95.7rem;
+        height: 53rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__socials {
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        font-size: 1.6rem;
+        line-height: 3.2rem;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    &__item {
+        position: relative;
+        flex-shrink: 0;
+        margin: 0 2rem;
+        margin-bottom: 2.2rem;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            transform: translateY(-50%);
+        }
+
+        &--mail {
+            padding-left: 4.1rem;
+
+            &::before {
+                width: 2.6rem;
+                height: 2rem;
+                background-image: url("/img/convert.svg");
+            }
+        }
+
+        &--tel {
+            padding-left: 3.2rem;
+
+            &::before {
+                width: 1.7rem;
+                height: 2.4rem;
+                background-image: url("/img/telephone.svg");
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 96rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+    .footer {
+        &__title {
+            margin-bottom: 2rem;
+            font-size: 1.8rem;
+            line-height: 3rem;
+        }
+
+        &__address {
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 2.5rem;
+        }
+
+        &__map {
+            width: 100%;
+            height: auto;
+        }
+
+        &__socials {
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 90%;
+            padding: 0 5%;
+        }
+
+        .container {
+            width: auto;
+        }
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .footer {
+        &__title {
+            font-size: 2.4rem;
+            line-height: 3rem;
+        }
+
+        &__address {
+            width: auto;
+            margin-bottom: 2rem;
+        }
+
+        &__map {
+            min-width: 69.8rem;
+            width: auto;
+            height: 54.5rem;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+}
