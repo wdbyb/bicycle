@@ -1,45 +1,45 @@
 .intro {
-    display: flex;
+  display: flex;
+  width: 100%;
+  min-height: 82.5rem;
+
+  &__bg {
+    position: absolute;
     width: 100%;
-    min-height: 82.5rem;
+    height: 82.5rem;
+    margin: 0 auto;
+    z-index: -1;
 
-    &__bg {
-        position: absolute;
-        width: 100%;
-        height: 82.5rem;
-        margin: 0 auto;
-        z-index: -1;
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
+  }
 
-    .container {
-        display: flex;
-        justify-content: space-between;
-    }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
-    .intro {
-        &__bg {
-            height: 39rem;
-        }
-
-        .container {
-            flex-direction: column;
-            justify-content: flex-start;
-        }
+  .intro {
+    &__bg {
+      height: 39rem;
     }
+
+    .container {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
-    .intro {
-        &__bg {
-            height: 34rem;
-        }
+  .intro {
+    &__bg {
+      height: 34rem;
     }
+  }
 }

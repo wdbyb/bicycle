@@ -1,47 +1,47 @@
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 body {
-    margin: 0;
-    font-family: 'Open Sans', 'Arial', sans-serif;
-    font-weight: 400;
+  margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .visually-hidden {
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .reset-text {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .reset-list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }

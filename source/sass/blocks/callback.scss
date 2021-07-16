@@ -1,85 +1,85 @@
 .callback {
-    width: 33rem;
-    margin-top: 32rem;
+  width: 33rem;
+  margin-top: 32rem;
 
-    &__title {
-        margin-bottom: 2rem;
-        font-weight: 600;
-        font-size: 1.7rem;
-        line-height: 2.8rem;
-        color: #ffffff;
-        text-align: center;
+  &__title {
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    padding: 1.2rem 2rem;
+    margin-bottom: 2rem;
+    border: 0.1rem solid #c9ccd4;
+    border-radius: 0.6rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+
+    &::placeholder {
+      color: rgba(11, 11, 11, 0.5);
     }
+  }
 
-    form {
-        display: flex;
-        flex-direction: column;
-    }
-
-    input {
-        padding: 1.2rem 2rem;
-        margin-bottom: 2rem;
-        border: .1rem solid #C9CCD4;
-        border-radius: .6rem;
-        font-weight: 400;
-        font-size: 1.5rem;
-        line-height: 2.4rem;
-
-        &::placeholder {
-            color: rgba(11,11,11,0.5);
-        }
-    }
-
-    button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        min-height: 5rem;
-        padding: 0;
-        background-color: #0AD9C6;
-        border: none;
-        border-radius: .6rem;
-        font-weight: 600;
-        font-size: 1.5rem;
-        line-height: 2.1rem;
-        outline: none;
-        cursor: pointer;
-    }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 5rem;
+    padding: 0;
+    background-color: #0ad9c6;
+    border: none;
+    border-radius: 0.6rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    outline: none;
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 1023px) {
-    .callback {
-        width: 90%;
-        margin: 0 auto;
-        margin-top: 15rem;
+  .callback {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15rem;
 
-        &__title {
-            width: 100%;
-            max-width: 43.5rem;
-            margin: 0 auto;
-            margin-bottom: 2rem;
-            color: #000000;
-        }
-
-        form {
-            align-items: center;
-        }
-
-        input {
-            width: 100%;
-            max-width: 48rem;
-        }
-
-        button {
-            width: 100%;
-            max-width: 48rem;
-        }
+    &__title {
+      width: 100%;
+      max-width: 43.5rem;
+      margin: 0 auto;
+      margin-bottom: 2rem;
+      color: #000000;
     }
+
+    form {
+      align-items: center;
+    }
+
+    input {
+      width: 100%;
+      max-width: 48rem;
+    }
+
+    button {
+      width: 100%;
+      max-width: 48rem;
+    }
+  }
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
-    .callback {
-        width: 32rem;
-    }
+  .callback {
+    width: 32rem;
+  }
 }
