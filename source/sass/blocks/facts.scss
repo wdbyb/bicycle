@@ -1,5 +1,5 @@
 .facts {
-  padding: 13rem 6rem;
+  padding: 15rem 6rem;
 }
 
 .facts__title {
@@ -38,12 +38,29 @@
 
 @media (max-width: 1023px) {
   .facts {
-    padding: 6rem 1.5rem;
+    padding: 7.5rem 1.5rem;
+    padding-bottom: 0;
   }
 
   .facts__title {
+    margin-bottom: 3rem;
     font-size: 2.3rem;
     line-height: 4.1rem;
+  }
+
+  .facts__item {
+    padding: 0;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 766px) {
+  .facts {
+    padding-top: 7rem;
+  }
+
+  .facts__title {
+    margin-bottom: 3rem;
   }
 
   .facts__list {
@@ -51,6 +68,6 @@
   }
 
   .facts__item {
-    padding: 0;
+    margin-bottom: 4rem;
   }
 }

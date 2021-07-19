@@ -1,6 +1,6 @@
 .about {
   width: 38rem;
-  margin-top: 32rem;
+  margin-top: 31.5rem;
   color: #ffffff;
 }
 
@@ -29,7 +29,7 @@
     align-items: center;
     width: 90%;
     margin: 0 auto;
-    margin-top: 12rem;
+    margin-top: 13.5rem;
   }
 
   .about__logo {
@@ -50,5 +50,11 @@
     font-size: 1.8rem;
     line-height: 3.2rem;
     text-align: center;
+  }
+}
+
+@media (max-width: 766px) {
+  .about {
+    margin-top: 12rem;
   }
 }

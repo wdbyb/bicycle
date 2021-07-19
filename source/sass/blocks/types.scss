@@ -1,4 +1,7 @@
 .types {
+  padding-top: 14rem;
+  padding-bottom: 9rem;
+  background: #F6F7F9;
   overflow: hidden;
 
   .container {
@@ -24,6 +27,7 @@
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 -2.5rem;
+  z-index: 1;
 }
 
 .types__item {
@@ -110,6 +114,12 @@
 }
 
 @media (max-width: 1023px) {
+  .types {
+    padding-top: 4.5rem;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+  }
+
   .types__title {
     margin-bottom: 3rem;
     font-size: 2.4rem;
@@ -158,7 +168,12 @@
 }
 
 @media (max-width: 766px) {
+  .types {
+    margin-top: 5rem;
+  }
+
   .types__item {
+    padding-bottom: 0;
     margin-bottom: 4rem;
   }
 }

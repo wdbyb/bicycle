@@ -1,6 +1,6 @@
 .callback {
   width: 33rem;
-  margin-top: 32rem;
+  margin-top: 32.5rem;
 
   form {
     display: flex;
@@ -67,6 +67,7 @@
 @media (max-width: 766px) {
   .callback {
     width: 90%;
+    margin-top: 14rem;
 
     form {
       align-items: center;

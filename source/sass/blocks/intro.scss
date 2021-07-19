@@ -26,6 +26,8 @@
 
 @media (max-width: 1023px) {
   .intro {
+    min-height: auto;
+
     .container {
       flex-direction: column;
       justify-content: flex-start;
@@ -33,7 +35,7 @@
   }
 
   .intro__bg {
-    height: 39rem;
+    height: 34rem;
   }
 }
 
@@ -43,6 +45,6 @@
   }
 
   .intro__bg {
-    height: 34rem;
+    height: 39rem;
   }
 }
