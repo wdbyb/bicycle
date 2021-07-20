@@ -10,15 +10,18 @@
   width: 96rem;
 }
 
-.video__title {
+.video h2 {
+  padding: 0;
+  margin: 0;
   font-weight: 600;
   font-size: 3rem;
   line-height: 3rem;
   text-align: center;
 }
 
-.video__description {
+.video p {
   width: 34rem;
+  padding: 0;
   margin: 0 auto;
   margin-top: 2rem;
   margin-bottom: -5rem;
@@ -73,11 +76,11 @@
     width: 50rem;
   }
 
-  .video__title {
+  .video h2 {
     font-size: 2.4rem;
   }
 
-  .video__description {
+  .video p {
     width: 42.3rem;
     margin-bottom: -4rem;
   }
@@ -98,7 +101,7 @@
     width: 90%;
   }
 
-  .video__description {
+  .video p {
     width: auto;
     padding: 0 1.5rem;
     margin-bottom: 0;
