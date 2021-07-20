@@ -6,7 +6,7 @@
   color: #ffffff;
 }
 
-.video .container {
+.video__container {
   width: 96rem;
 }
 
@@ -69,7 +69,7 @@
     margin-bottom: 0;
   }
 
-  .video .container {
+  .video__container {
     width: 50rem;
   }
 
@@ -88,7 +88,7 @@
   }
 }
 
-@media (max-width: 766px) {
+@media (max-width: 767px) {
   .video {
     padding-top: 8.4rem;
   }
@@ -100,10 +100,11 @@
 
   .video__description {
     width: auto;
+    padding: 0 1.5rem;
     margin-bottom: 0;
   }
 
-  .video .container {
+  .video__container {
     width: 100%;
     margin: 0 auto;
   }

@@ -3,14 +3,8 @@
   margin: 0 auto;
 }
 
-@media (min-width: 320px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .container {
     width: 100%;
-  }
-}
-
-@media (min-width: 767px) and (max-width: 1023px) {
-  .container {
-    width: 88rem;
   }
 }

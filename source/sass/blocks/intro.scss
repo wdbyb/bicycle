@@ -3,17 +3,16 @@
   justify-content: center;
   width: 100%;
   min-height: 82.5rem;
+}
 
-  .container {
-    display: flex;
-    justify-content: space-between;
-  }
+.intro__container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .intro__bg {
   position: absolute;
   width: 100%;
-  max-width: 144rem;
   height: 82.5rem;
   z-index: -1;
 
@@ -27,11 +26,11 @@
 @media (max-width: 1023px) {
   .intro {
     min-height: auto;
+  }
 
-    .container {
-      flex-direction: column;
-      justify-content: flex-start;
-    }
+  .intro__container {
+    flex-direction: column;
+    justify-content: flex-start;
   }
 
   .intro__bg {
@@ -39,7 +38,7 @@
   }
 }
 
-@media (max-width: 766px) {
+@media (max-width: 767px) {
   .intro {
     min-height: auto;
   }
