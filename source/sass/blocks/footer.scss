@@ -46,6 +46,10 @@
   flex-shrink: 0;
   margin: 0 2rem;
   margin-bottom: 2.2rem;
+
+  &:hover {
+    color: #000000;
+  }
 }
 
 .footer__item--mail {
