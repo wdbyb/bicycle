@@ -82,6 +82,7 @@
 .footer__socials {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 3rem;
   font-size: 1.6rem;
   line-height: 3.2rem;
@@ -114,8 +115,12 @@
   .footer__map {
     min-width: 69.8rem;
     width: auto;
-    height: 54.5rem;
+    height: auto;
     margin: 0 auto;
+
+    img {
+      object-fit: contain;
+    }
   }
 
   .footer__socials {
@@ -145,7 +150,6 @@
   .footer__map {
     min-width: auto;
     width: 100%;
-    height: 25rem;
   }
 
   .footer__socials {

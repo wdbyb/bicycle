@@ -59,7 +59,8 @@
   transform: translate(-50%, -50%);
   cursor: pointer;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: orange;
   }
 }

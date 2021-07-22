@@ -14,13 +14,13 @@
 .facts__list {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   font-size: 2.2rem;
   line-height: 3.4rem;
 }
 
 .facts__item {
-  width: 29.1rem;
+  width: 100%;
+  max-width: 29.1rem;
   padding: 0 1.9rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -52,6 +52,12 @@
     padding: 0;
     margin-bottom: 5rem;
   }
+
+  .facts__list {
+    max-width: 80rem;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 767px) {
@@ -64,6 +70,7 @@
   }
 
   .facts__list {
+    max-width: 57rem;
     font-size: 1.8rem;
   }
 

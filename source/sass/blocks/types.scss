@@ -25,12 +25,13 @@
 .types__list {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   margin: 0 -2.5rem;
   z-index: 1;
 }
 
 .types__item {
+  width: 100%;
+  max-width: 34.2rem;
   margin: 0 2.5rem;
   margin-bottom: 5rem;
 
@@ -49,7 +50,7 @@
 
 .types__item-image {
   position: relative;
-  width: 34.2rem;
+  width: 100%;
   height: auto;
 
   img {
@@ -120,6 +121,10 @@
     margin-top: 3rem;
   }
 
+  .types__list {
+    flex-wrap: wrap;
+  }
+
   .types__title {
     margin-bottom: 3rem;
     font-size: 2.4rem;
@@ -135,6 +140,7 @@
   }
 
   .types__item-image {
+    width: 100%;
     height: 30rem;
   }
 
@@ -170,6 +176,10 @@
 @media (max-width: 767px) {
   .types {
     margin-top: 5rem;
+  }
+
+  .types__list {
+    max-width: 60rem;
   }
 
   .types__item {

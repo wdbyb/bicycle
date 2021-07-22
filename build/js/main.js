@@ -5,6 +5,7 @@ var headerList = document.querySelector('.header__list');
 var inputTel = document.querySelector('#tel');
 var inputName = document.querySelector('#name');
 var form = document.querySelector('.callback form');
+var body = document.querySelector('body');
 
 function setInputFilter(textbox, inputFilter) {
   ["input", "keydown", "keyup", "mousedown", "mouseup", "select", "contextmenu", "drop"].forEach(function(event) {
@@ -26,9 +27,11 @@ function setInputFilter(textbox, inputFilter) {
 headerToggle.addEventListener('click', function(evt) {
   evt.preventDefault();
   if (headerToggle.classList.contains('header__toggle--opened')) {
+    body.style.overflow = 'visible';
     headerList.style.display = 'none';
     headerToggle.classList.remove('header__toggle--opened');
   } else {
+    body.style.overflow = 'hidden';
     headerList.style.display = 'flex';
     headerToggle.classList.add('header__toggle--opened');
   }

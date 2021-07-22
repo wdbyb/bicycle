@@ -43,7 +43,8 @@
     outline: none;
     cursor: pointer;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: orange;
     }
   }
@@ -60,7 +61,7 @@
 
 @media (max-width: 1023px) {
   .callback {
-    width: 32rem;
+    width: 41%;
     margin: 0 auto;
     margin-top: 15rem;
   }
