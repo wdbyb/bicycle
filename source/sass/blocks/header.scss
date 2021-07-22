@@ -3,6 +3,7 @@
   left: 0;
   right: 0;
   padding: 2rem 0;
+  z-index: 2;
 }
 
 .header__logo {
@@ -145,5 +146,11 @@
 
   .header__toggle--opened .header__menu-close {
     display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__logo {
+    margin-left: 1.6rem;
   }
 }
